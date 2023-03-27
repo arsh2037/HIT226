@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form </title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/78f5c302d4.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <h1> Welcome to the matrix </h1>
-    <hr>
 
-    <form name="sample" action="/myaction.php" onsubmit="return validation()" method="POST">
-        <div class="details" id="name">
-            Name: <input type="text" name="name"> <b><i><span class="error" ></span> </i></b>
-        </div>
-        <div class="details" id="Address">
-            Address: <input type="text" name="Address"> <b><i><span class="error" > </span> </i></b>
-        </div>
-        <div class="details" id="email">
-            email: <input type="email" name="email"><b><i><span class="error" > </span> </i></b>
-        </div>
-        <div class="details" id=password">
-            password: <input type="password" name="password"><b><i><span class="error" > </span> </i></b>
-        </div>
-        <div class="details" id="Cpassword">
-            Confirm password: <input type="password" name="Cpassword"><b><i><span class="error" > </span> </i></b>
-        </div>
-        <div class="details" id="TeleNumber">
-            Telephone number: <input type="text" name="TeleNumber"><b><i><span class="error" > </span> </i></b>
-        </div>
-        <div class="details" id="Flang">
-            First Language: <input type="text" name="Flang">
-        </div>
+  <h1> Welcome to the matrix </h1>
+  <hr>
 
-        <input class="button" type="submit" value="submit">
+  <form name="sample" action="/myaction.php" onsubmit="return validation()" method="POST">
 
-</form>
+    <div class="details" id="name">
+      Name: <input type="text" name="name" placeholder="Black Panther"> <b><i><span class="error"></span> </i></b>
+    </div>
+    <div class="details" id="Address">
+      Address: <input type="text" name="Address" placeholder="Wakanda, African Continent, Earth"> <b><i><span
+            class="error"> </span> </i></b>
+    </div>
+    <div class="details" id="email">
+      email: <input type="email" name="email" placeholder="tchalla@wakanda.gov"><b><i><span class="error"> </span>
+        </i></b>
+    </div>
+    <div class="details" id=password">
+      password: <input type="password" name="password" placeholder=""><b><i><span class="error"> </span> </i></b>
+    </div>
+    <div class="details" id="Cpassword">
+      Confirm password: <input type="password" placeholder="Strong P@@5W0RD" name="Cpassword"><b><i><span class="error">
+          </span> </i></b>
+    </div>
+    <div class="details" id="TeleNumber">
+      Telephone number: <input type="text" name="TeleNumber" placeholder="04XXXXXX90"><b><i><span class="error"> </span>
+        </i></b>
+    </div>
+    <div class="details" id="Flang">
+      <!--             First Language: <input type="text" name="Flang" placeholder=""> -->
+      <label for="language">First Language</label>
+      <select name="language" id="language">
+        <option value="English">English</option>
+        <option value="German">German</option>
+        <option value="French" disabled>French</option>
 
-<script src="index.js"></script>
+      </select>
+    </div>
+    <div class="buttons">
+      <i class="fa-regular fa-input-text fa-fade fa-lg">
+        <input class="button" type="submit" value="submit"></i>
+
+    </div>
+  </form>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
