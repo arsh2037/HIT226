@@ -1,0 +1,28 @@
+.details {
+    padding:5px;
+    margin:5px;
+    font-size: 24px;
+    
+}
+
+.error{
+    color: red;
+    font-style: italic;
+    font-size: 10px;
+
+}
+h1{
+    text-align:center;
+}
+body{
+    background-color: rgb(74, 109, 191);
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }

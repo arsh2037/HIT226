@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Welcome to the matrix </h1>
+    <hr>
+
+    <form name="sample" action="/myaction.php" onsubmit="return validation()" method="POST">
+        <div class="details" id="name">
+            Name: <input type="text" name="name"> <b><i><span class="error" ></span> </i></b>
+        </div>
+        <div class="details" id="Address">
+            Address: <input type="text" name="Address"> <b><i><span class="error" > </span> </i></b>
+        </div>
+        <div class="details" id="email">
+            email: <input type="email" name="email"><b><i><span class="error" > </span> </i></b>
+        </div>
+        <div class="details" id=password">
+            password: <input type="password" name="password"><b><i><span class="error" > </span> </i></b>
+        </div>
+        <div class="details" id="Cpassword">
+            Confirm password: <input type="password" name="Cpassword"><b><i><span class="error" > </span> </i></b>
+        </div>
+        <div class="details" id="TeleNumber">
+            Telephone number: <input type="text" name="TeleNumber"><b><i><span class="error" > </span> </i></b>
+        </div>
+        <div class="details" id="Flang">
+            First Language: <input type="text" name="Flang">
+        </div>
+
+        <input class="button" type="submit" value="submit">
+
+</form>
+
+<script src="index.js"></script>
+</body>
+</html>
