@@ -2,6 +2,7 @@
     padding:5px;
     margin:5px;
     font-size: 24px;
+  color: white;
     
 }
 
@@ -13,11 +14,15 @@
 }
 h1{
     text-align:center;
+    color: white
 }
 body{
-    background-color: rgb(74, 109, 191);
+    background-color: rgb(30, 35, 47);
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  background-image: url("matrix.jpg");
+    
+     
     
 }
 
@@ -25,4 +30,4 @@ input[type=text] {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
-  }
+}
